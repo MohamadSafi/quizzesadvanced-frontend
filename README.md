@@ -15,7 +15,8 @@
 ![------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2>:pencil: About The Project</h2>
-Moodle Quiz Generator project is a tool that is ment to be an extention to Innopolis university moodle: https://moodle.innopolis.university/
+
+<a href="https://qumogen.worldm.ru/login">Moodle Quiz Generator</a> project is a tool that is ment to be an extention to Innopolis university moodle: https://moodle.innopolis.university/
 
 ## Features of the project over the original Moodle:
 #### Advanced Code-Based Questions: 
