@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+<h1 align="center"> Advanced External Moodle Quiz Generator</h1>
+<h4 align="center"> The constantly-growing number of students at Innopolis University pushes to make grading more automatic for saving time of TAs,
+ getting unbiased quick results with the feedback. Moodle quizzes are one of the tools being used since 2015-2016 at IU.
+ However, repeating the same questions yearly does not seem a good idea, which pushes regularly to rebuild the questions.
+ Moodle quizzes are providing rich functionality for preparing automatic questions.
+ However, in some cases the power of Moodle quizzes is not enough to make questions flexible enough,
+ which results into excess manual work. Fortunately, it is possible to insert questions into the quiz from external sources
+ in given formats like XML and so on. Thus, the our ecternal quiz generator tool is able to produce a course-specific flexible
+ questions for quizzes in Moodle.</h4>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> 
+  <img src="IMG/courses.PNG" width="80%" height="90%>
+</p>
 
-## Available Scripts
+![------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-In the project directory, you can run:
+<h2>:pencil: About The Project</h2>
+Moodle Quiz Generator project is a tool that is ment to be an extention to Innopolis university moodle: https://moodle.innopolis.university/
 
-### `npm start`
+## Features of the project over the original Moodle:
+#### Advanced Code-Based Questions: 
+The new system allows the creation of calculated questions with varying codes and their compilation and execution for preparing valid and invalid solutions. This feature enables instructors to design more complex and dynamic programming assessments.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Code Protection: 
+To prevent quiz participants from copying the codes for testing in external compilers, the system can convert code-containing text into images. This makes it harder for students to extract the code and encourages them to attempt the problems within the quiz environment.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Formatting Preservation: 
+When copying questions from external sources into Moodle, unintentional formatting issues may arise. The new system takes measures to ensure that the formatting of copied questions is preserved correctly, reducing the need for manual adjustments.
 
-### `npm test`
+#### Question Templates: 
+The new system supports question templates, such as "Which of those statement(s) about TOPIC is/are correct?" This feature simplifies the process of creating consistent question formats and structures across various quizzes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Domain-Specific Questions: 
+Some courses may require specific questions tailored to the subject's domain. The new system allows instructors to create domain-specific questions, like "Use minimax algorithm for a given tree," catering to the specific needs of the course.
 
-### `npm run build`
+#### Flexible Grading Policies: 
+The system provides enhanced grading options for multiple-choice questions and other question types. Instructors can choose grading policies at the top-level, giving them greater control over the assessment process.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Yearly Question Variation: 
+For questions that are repeated yearly, the system allows the generation of different subsets of answers. This feature introduces variety into the assessments, keeping them fresh and challenging for returning students. The ability to randomize answer subsets ensures fairness and prevents unfair advantage for students who may have access to previous years' questions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## :camera: Screeshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* The website require a Login to enter and use the tool:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](IMG/Login.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* You can choose from the courses that are assighned to you then add a Quiz:
 
-## Learn More
+![](IMG/quizSetting.PNG)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* There is multiple choices to choose a question from
 
-### Code Splitting
+![](IMG/modal.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+* Coding question:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![](IMG/codingQuestion.PNG)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Multiple choice question:
 
-### Advanced Configuration
+![](IMG/choiceQuestion.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+* Also we have a admin pannel for admin accounts:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![](IMG/adminPanel.PNG)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
