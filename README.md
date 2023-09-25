@@ -1,12 +1,15 @@
 <h1 align="center"> Advanced External Moodle Quiz Generator</h1>
-<h4 align="center"> The constantly-growing number of students at Innopolis University pushes to make grading more automatic for saving time of TAs,
+<p align="center">The constantly-growing number of students at Innopolis University pushes to make grading more automatic for saving time of TAs,
  getting unbiased quick results with the feedback. Moodle quizzes are one of the tools being used since 2015-2016 at IU.
  However, repeating the same questions yearly does not seem a good idea, which pushes regularly to rebuild the questions.
  Moodle quizzes are providing rich functionality for preparing automatic questions.
  However, in some cases the power of Moodle quizzes is not enough to make questions flexible enough,
  which results into excess manual work. Fortunately, it is possible to insert questions into the quiz from external sources
  in given formats like XML and so on. Thus, the our ecternal quiz generator tool is able to produce a course-specific flexible
- questions for quizzes in Moodle.</h4>
+ questions for quizzes in Moodle.</p>
+
+
+
 
 <p align="center"> 
   <img src="IMG/courses.PNG" width="80%" height="90%>
